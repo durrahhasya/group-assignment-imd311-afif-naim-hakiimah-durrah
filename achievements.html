@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Official Portal National Archives of Malaysia</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/d341be13ba.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body
+            {
+                background-color: rgba(71,27,0,255);
+                background-attachment: fixed;
+                background-size: cover;
+                color: black;
+            }
+        </style>
+        <ul style="left: 1;">
+            <li><p><a href="contactus.html" style="text-decoration:none; color: white; font-size: small; font-family: Arial;">Contact Us</a></p></li>
+        </ul>
+    </head>
+    <body>
+        <div class="url"><center><img src="image/ministrylogo.svg" width="90px" height="70px"></center></div>
+        <h1>Official Portal National Archives of Malaysia</h1>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" style= "text-decoration:none;">Home Page</a></li>
+                <li><a href="nationalarchivesmalaysia.html" style= "text-decoration:none;">National Archives Malaysia</a></li>
+                <li><a href="services.html" style= "text-decoration:none;">Services</a></li>
+                <li><a href="achievements.html" style= "text-decoration:none;">Achievements</a></li>
+                <li><a href="galleryphoto.html" style= "text-decoration:none;">Gallery Photo</a></li>
+            </ul>
+        </div>
+        <h2><b>Achievements</b></h2>
+        <br>
+        <p style="font-size: 16; font-family: Arial; color: white; text-align: justify; padding-left: 20%; padding-right: 20%;"><b>National Archive Malaysia award-winning Unesco Jikji Memory of The World Prize 2009</b></p>
+        <br>
+        <p style="font-size: 16; font-family: Arial; color: white; text-align: justify; padding-left: 20%; padding-right: 20%;">Jikji Memory of The World Prize adalah merupakan hadiah yang bernilai USD 30,000.00 bagi memperingati pendaftaran Jikji, iaitu buku cetakan besi yang tertua di dunia, dibuat pada tahun 1377, di bandar Cheongju, Republik Korea. Hadiah ini diberi setiap dua tahun sekali kepada mana-mana individu atau organisasi yang dikenalpasti telah memberikan sumbangan yang signifikan terhadap usaha pemeliharaan serta kemudahan capaian kepada bahan khazanah warisan di peringkat dalam negara, rantau serta dunia.
+        </p>
+        <p style="font-size: 16; font-family: Arial; color: white; text-align: justify; padding-left: 20%; padding-right: 20%;">Arkib Negara Malaysia telah diumumkan sebagai pemenang hadiah tersebut pada tahun ini ole UNESCO semasa mesyuarat International Advisory Committee of UNECO's Memory of The World Programme yang telah diadakan pada 31 Julai 2009 di Bridgetown, Barbados. Pencalonan Arkib Negara Malaysia telah diterima dan diikhtiraf oleh pihak UNESCO berdasarkan kepada sumbangan yang telah diberikan olen jabatan in khususnya dalam program-program pengembangan, pendidikan dan latihan dalam bidang pemeliharaan bahan khazanah warisan di rantau Asia sejak penubuhannya pada tahun 1957 sehingga kini.</p>
+        <br>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        *{box-sizing: border-box;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+        .slideshow-container 
+        {
+            max-width: 300px;
+            position: relative;
+            margin: auto;
+        }
+
+        .active 
+        {
+            background-color: white;
+        }
+
+        .fade 
+        {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade 
+        {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+
+        @media only screen and (max-width: 300px) 
+        {
+            .text {font-size: 11px}
+        }
+        </style>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="image/ff1.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="image/ff2.png" style="width:100%">
+            </div>
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";  
+              setTimeout(showSlides, 2000); // Change image every 60 seconds
+            }
+            </script>
+            <br>
+        <footer>
+            <p><a href="mailto:webmaster@arkib.gov.my" style= "text-decoration:none; color: white;"><b>Copyright 2023 &#169; National Archives of Malaysia</b></a></p>
+        </footer>
+    </body>
+</html>
